@@ -34,6 +34,8 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+
+
 /* ************************************** ACCORDION SKILLS ****************************** */
 const skillsContent = document.getElementsByClassName('skills_content'),
       skillsHeader = document.querySelectorAll('.skills_header')

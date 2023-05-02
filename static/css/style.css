@@ -145,7 +145,7 @@ img {
 
 
 
-/* LAYOUT */
+/* ********************************** LAYOUT ********************************* */
 .container {
     max-width: 768px;
     margin-left: var(--mb-1-5);
@@ -158,8 +158,8 @@ img {
 }
 
 .header{
-    width: 100px;
-    position: fixed;
+    width: 100%; /*100px */
+    position: fixed; /* fixed*/
     bottom: 0;
     left: 0;
     z-index: var(--z-fixed);
@@ -167,7 +167,7 @@ img {
 }
 
 
-/* NAV  */
+/* *************************  NAV  ************************************  */
 
 .nav{
     max-width: 968px;
@@ -362,7 +362,7 @@ img {
 
 
 
-/* ABOUT  */
+/* ********************************************  ABOUT ************************************ */
 
 .about_img{
         width: 200px;
@@ -519,19 +519,6 @@ img {
 .skills_open .skills_arrow{
     transform: rotate(-180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* QUALIFICATION  */
